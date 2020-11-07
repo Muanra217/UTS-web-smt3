@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+        <Title>Pendaftaran</Title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <h1 align="center">PENDAFTARAN</h1>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="daftar.html" class="active">Daftar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <form id="daftaran">
+        <table class="pendaftaran" align="center">
+            <h2 align="center">Masukkan Data Diri : </h2>
+            <tr>
+                <td class="data"><b>Nama</b></td><td><b>:</b></td>
+                <td><input type="text" id="nama"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>Jenis Kelamin</b></td><td><b>:</b></td>
+                <td><input type="text" id="gender"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>Usia</b></td><td><b>:</b></td>
+                <td><input type="text" id="usia"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>Pekerjaan</b></td><td><b>:</b></td>
+                <td><input type="text" id="pekerjaan"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>Domisili</b></td><td><b>:</b></td>
+                <td><input type="text" id="domisili"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>E-mail</b></td><td><b>:</b></td>
+                <td><input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><input type="button" onclick="selesai()" value="Daftar"></td>
+            </tr>
+        </table>
+        <p name="rata_rata"></p>
+    </form>
+      <br><br>
+      <div align="center">
+      <img src="mabar.png" height="15%" width="30%">
+      <img src="paimon.png" height="15%" width="30%">
+      <img src="quest.png" height="15%" width="30%">
+    </div>
+    </body>
+</html>

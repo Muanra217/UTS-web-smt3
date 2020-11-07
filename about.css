@@ -1,0 +1,23 @@
+td{width: 250px;}
+
+div{background-color:greenyellow;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    }
+
+.h1,tr,td{color: black;}
+.h1{padding-top: 20px;}
+table{padding-left: 20px;}
+
+.data{
+    color: black;
+}
+
+.gambar{
+    box-shadow: 2px 2px 15px 2px white;
+    width: 130px;
+    height: 180px;
+    padding-right: 10px;
+    }
